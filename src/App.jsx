@@ -8,10 +8,12 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <h1>I hate React</h1>
-        <Link to="/">Why do I hate React?</Link>
-        <Link to="/how">How made does React make me?</Link>
-        <Link to="/what">What am I going to do about it?</Link>
+        <h1>&#128545;I hate React &#128545;</h1>
+        <div className="linkyBois">
+          <Link to="/">Why do I hate React?</Link>
+          <Link to="/how">How mad does React make me?</Link>
+          <Link to="/what">What am I going to do about it?</Link>
+        </div>
       </header>
 
       <Routes>
@@ -28,5 +30,3 @@ function App() {
 }
 
 export default App;
-
-// I'm so mad I'm not going to use any CSS outside of making this square orange:

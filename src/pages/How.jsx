@@ -8,6 +8,11 @@ export default function How() {
         of making this square orange:
       </p>
       <div className="orangeBoi"></div>
+      <p>
+        I spent an hour trying to use state to make something appear when you
+        click the square but guess what? Couldn't get it to work, because I
+        don't understand state.
+      </p>
     </main>
   );
 }
